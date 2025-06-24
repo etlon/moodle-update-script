@@ -9,9 +9,11 @@ versions and their corresponding plugins. Optionally it can automatically apply 
 This script requires a Python-3 installation and all the packages listed in the `requirements.txt` file.
 Plugins are defined in the `plugin_list` array (Frankenstein component names).
 ## Usage
-To use the script, run it from the command line with `python3 main.py`.
+To use the script, run it from the command line with `python3 main.py` or `py main.py`.
 The user can choose to update to the latest stable version, the latest development version, or the newest "Other supported release".
-The output is a complete moodle directory with the chosen version and all version compatible plugins.
+The output is a complete moodle directory with the chosen version and all version compatible plugins.  
+![moodle-update-script-output](https://github.com/user-attachments/assets/397795ce-f673-4c23-bb54-5d923086af25)
+
 
 ### corechanges
 Corechanges are custom changes to the Moodle or plugin source code.
